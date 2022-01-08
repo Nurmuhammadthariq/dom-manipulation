@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Store Marketplace</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light navbar-store shadow-sm">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo-store.svg" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-5 me-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+				<div class="">
+					<a href="" class="btn btn-success nav-link px-4 text-white">Sign In</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+
+	<!-- Hero Section -->
+	<div class="" style="background-color: darkblue;">
+		<div class="alert alert-success">
+			<div class="container">
+				"New Arrival on January 2022, check it out!"
+			</div>
+		</div>
+		<div class="container px-4 align-items-center text-light" style="margin-top: 50px;">
+			<div class="row flex-lg-row-reverse g-5">
+				<div class="col-10 col-sm-8 col-lg-6 mt-3">
+					<img src="images/image1.png" class="img-fluid" alt="">
+				</div>
+				<div class="col-lg-6" style="margin-bottom: 5rem;">
+					<h1 class="display-5 fw-bold lh-1 mb-3">Discount 50% Off All Members</h1>
+					<p class="lead">
+						Included tax pricing for Indonesia citizen or other countries
+					</p>
+					<div class="mt-4">
+						<button type="button" class="btn btn-primary btn-lg px-4">Get started</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Trend Categories Section -->
+	<div class="store-trend-categories page-home">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h5>Trend Categories</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-gadgets.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Gadgets
+						</p>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-tools.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Tools
+						</p>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-baby.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Baby
+						</p>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-furniture.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Furniture
+						</p>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-makeup.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Make Up
+						</p>
+					</a>
+				</div>
+				<div class="col-6 col-md-3 col-lg-2">
+					<a href="#" class="component-categories d-block">
+						<div class="categories-image">
+							<img src="images/categories-sneaker.svg" alt="" class="w-100">
+						</div>
+						<p class="categories-text">
+							Sneaker
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- New Product Section -->
+	<div class="store-new-product">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h5>New Products</h5>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+						<img src="images/products-apple-watch.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Apple watch 4</h5>
+							<p class="card-text">$890</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-apple-watch.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+						<img src="images/products-orange-bogotta.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Orange Bogotta</h5>
+							<p class="card-text">$94,59</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-orange-bogotta.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+						<img src="images/products-sofa-ternyaman.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Sofa Ternyaman</h5>
+							<p class="card-text">$1400</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-sofa-ternyaman.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+						<img src="images/products-bubuk-maketti.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Masker Wajah</h5>
+							<p class="card-text">$150</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-bubuk-maketti.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+						<img src="images/products-tatakan-gelas.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Tatakan Gelas</h5>
+							<p class="card-text">$45,10</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-tatakan-gelas.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+						<img src="images/products-mavic-kawe.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Mavic Drone 2</h5>
+							<p class="card-text">$200</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-mavic-kawe.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+						<img src="images/products-black-edition-nike.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Nike Black Edition</h5>
+							<p class="card-text">$70,000</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-black-edition-nike.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-3 col-lg-3">
+					<div class="card mt-2 component-products" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+						<img src="images/products-monkey-toys.jpg" class="card-img-top products-image">
+						<div class="card-body">
+							<h5 class="card-title">Monkey Toys</h5>
+							<p class="card-text">$876</p>
+						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Apple watch 4</h5>
+										<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+									<div class="modal-body">
+										<img src="images/products-monkey-toys.jpg" alt="" class="d-block w-100">
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact Section -->
+	<div class="store-contact">
+		<div class="container">
+			<div class="row">
+				<div class="text-center mx-auto">
+					<!-- Title -->
+					<h1 class="text-primary contact fw-bold">Contact Us</h1>
+					<h6 class="mb-5 fw-bold">We're here to help</h6>
+				</div>
+			</div>
+
+			<div class="row g-4 g-lg-0 align-items-center">
+	
+				<div class="col-md-6 align-items-center text-center mt-0">
+					<!-- Image -->
+					<img src="images/contact.svg" alt="" style="height: 400px;">
+	
+					<!-- Social media button -->
+				</div>
+	
+				<!-- Contact form START -->
+				<div class="col-md-6">
+					<!-- Title -->
+	
+					<form>
+						<!-- Name -->
+						<div class="mb-4 bg-light-input">
+							<label for="yourName" class="form-label">Your name *</label>
+							<input type="text" class="form-control form-control-lg" id="yourName">
+						</div>
+						<!-- Email -->
+						<div class="mb-4 bg-light-input">
+							<label for="emailInput" class="form-label">Email address *</label>
+							<input type="email" class="form-control form-control-lg" id="emailInput">
+						</div>
+						<!-- Message -->
+						<div class="mb-4 bg-light-input">
+							<label for="textareaBox" class="form-label">Message *</label>
+							<textarea class="form-control" id="textareaBox" rows="4"></textarea>
+						</div>
+						<!-- Button -->
+						<div class="d-grid">
+							<button class="btn btn-lg btn-primary mb-0" type="button">Send Message</button>
+						</div>
+					</form>
+				</div>
+				<!-- Contact form END -->
+			</div>
+		</div>
+	</div>
+
+	<!-- Foote Section -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<p class="pt-4 pb-2">
+						2019 Copyright Store Marketplace. All Right Reserved
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-store {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*  Page content Home  */
+/* Section new product */
+.store-new-product {
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.component-products {
+  margin-bottom: 20px;
+}
+
+.component-products .products-image:hover {
+  cursor: pointer;
+}
+
+.component-products .card-body .card-title {
+  color: #0c0d36;
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.component-products .card-body .card-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ff7158;
+}
+
+/* Trend Categories Section */
+.page-home h5 {
+  margin-bottom: 15px;
+}
+
+.store-trend-categories {
+  margin-top: 30px;
+}
+
+.component-categories {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.component-categories:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.component-categories .categories-text {
+  color: #0c0d36;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Contact Section */
+.store-contact {
+  padding-top: 3.5rem;
+  font-weight: 400;
+  color: #737579;
+}
+
+.contact {
+    color: rgba(6, 106, 201) !important;
+}
+
+.store-contact .contact-title {
+  color: #24292d;
+  font-weight: 700;
+}
+
+.bg-light-input .form-control {
+  background-color: #f5f7f9 !important;
+  border: 1px solid #f5f7f9 !important;
+  border-radius: 0.325rem;
+}
+
+.bg-light-input .form-control:focus {
+  border: 1px solid #066ac9 !important;
+  box-shadow: none;
+}
+
+.store-breadcrumbs {
+  margin-top: 20px;
+}
+
+.store-breadcrumbs a {
+  color: #979797;
+  text-decoration: none;
+}
+
+.store-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.store-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.store-breadcrumbs
+.breadcrumb-item + 
+.breadcrumb-item::before {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e4e4e4;
+    margin-top: 150px;
+}
+
