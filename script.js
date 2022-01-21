@@ -1,13 +1,17 @@
 const scrollDown = document.querySelector('#scroll-down');
-const heroColor = document.getElementById('hero-section');
+const heroSection = document.getElementById('hero-section');
 const btn = document.querySelector('#sign-in');
 
-heroColor.addEventListener('mouseover', () => {
-  heroColor.style.backgroundColor = 'red';
+btn.addEventListener('click', () => {
+  alert('Thankyou for clik me!');
 });
 
-heroColor.addEventListener('mouseout', () => {
-  heroColor.style.backgroundColor = 'darkblue';
+heroSection.addEventListener('mouseover', () => {
+  heroSection.style.backgroundColor = 'darkgreen';
+});
+
+heroSection.addEventListener('mouseout', () => {
+  heroSection.style.backgroundColor = 'darkblue';
 });
 
 scrollDown.addEventListener('click', () => {
@@ -18,6 +22,3 @@ scrollDown.addEventListener('click', () => {
   });
 });
 
-btn.addEventListener('click', () => {
-  alert('Thankyou for clik me!');
-});
